@@ -5,12 +5,16 @@
 // import { MultipleCustmHooks } from "./03-examples/MultipleCustmHooks";
 // import { FocusScreen } from "./04-useRef/FocusScreen";
 // import { Layout } from "./05-useLayoutEffect/Layout";
-import { CallbackHook } from "./06-memos/CallbackHook";
+// import { CallbackHook } from "./06-memos/CallbackHook";
+import { TodoApp } from "./07-useReducer/TodoApp";
 // import { MemoHook } from "./06-memos/MemoHook";
+
+// import "./07-useReducer/intro-reducer";
+
 export const App = () => {
   return (
     <>
-      <CallbackHook />
+      <TodoApp />
     </>
   );
 };
